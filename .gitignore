@@ -1,0 +1,23 @@
+# Generated executables, packages, and test reports
+dist/
+*.exe
+*.pdb
+*.zip
+test-results.txt
+audio-diagnostics.txt
+
+# Local editor / build state
+.vs/
+.vscode/
+bin/
+obj/
+*.user
+*.suo
+Thumbs.db
+.DS_Store
+
+# Never commit local microphone settings or credentials
+settings.xml
+last-error.txt
+.env
+.env.*
